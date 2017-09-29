@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="facebook_darkblue">#3b5998</color>
+    <color name="facebook_blue">#8b9dc3</color>
+    <color name="facebook_darkblue">##dfe3ee</color>
+    <color name="facebook_white">#f7f7f7</color>
+    <color name="facebook_lightwhite">#ffffff</color>
+</resources>
