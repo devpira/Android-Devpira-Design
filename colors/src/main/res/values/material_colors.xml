@@ -2,7 +2,7 @@
 <resources>
 
     <!-- WHITE-->
-    <color name="white">#ffffff</color>
+
     <color name="white_opaque90">#e6ffffff</color>
     <color name="white_opaque80">#ccffffff</color>
     <color name="white_opaque70">#b3ffffff</color>
@@ -13,7 +13,6 @@
     <color name="white_opaque20">#33ffffff</color>
     <color name="white_opaque10">#1affffff</color>
 <!--BLACK-->
-    <color name="black">#000000</color>
     <color name="black_opaque90">#e6000000</color>
     <color name="black_opaque80">#cc000000</color>
     <color name="black_opaque70">#b3000000</color>
