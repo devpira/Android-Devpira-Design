@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PiraAttrParentView">
+        <attr name="meParentView" format="reference"/>
+        <attr name="meWidth" format="fraction"/>
+        <attr name="meHeight" format="fraction"/>
+        <attr name="meX" format="fraction"/>
+        <attr name="meY" format="fraction"/>
+        <attr name="meMargin" format="fraction"/>
+        <attr name="meLeftMargin" format="fraction"/>
+        <attr name="meRightMargin" format="fraction"/>
+        <attr name="meTopMargin" format="fraction"/>
+        <attr name="meBottomMargin" format="fraction"/>
+        <attr name="meTextSize" format="fraction"/>
+        <attr name="meMaxTextSize" format="fraction"/>
+        <attr name="meMinTextSize" format="fraction"/>
+        <attr name="mePadding" format="fraction"/>
+        <attr name="meLeftPadding" format="fraction"/>
+        <attr name="meRightPadding" format="fraction"/>
+        <attr name="meTopPadding" format="fraction"/>
+        <attr name="meBottomPadding" format="fraction"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraView" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="PiraButton" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+        <attr name="meTextSize" />
+        <attr name="meMaxTextSize" />
+        <attr name="meMinTextSize" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraEditText" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+    <attr name="meLeftPadding" />
+    <attr name="meRightPadding" />
+    <attr name="meTopPadding" />
+    <attr name="meBottomPadding" />
+
+    <attr name="meTextSize" />
+    <attr name="meMaxTextSize" />
+    <attr name="meMinTextSize" />
+
+</declare-styleable>
+
+    <declare-styleable name="PiraTextView" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+        <attr name="meTextSize" />
+        <attr name="meMaxTextSize" />
+        <attr name="meMinTextSize" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraRelativeLayout" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraLinearLayout" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraToolBar" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraCollapsingToolbayLayout" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraCardView" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraImageView" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraCircleImageViewImageView" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraProgressBar" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+    </declare-styleable>
+
+    <declare-styleable name="PiraCheckBox" Parent="PiraAttrParentView">
+        <attr name="meParentView" />
+        <attr name="meWidth" />
+        <attr name="meHeight" />
+        <attr name="meX" />
+        <attr name="meY" />
+        <attr name="meMargin" />
+        <attr name="meLeftMargin" />
+        <attr name="meRightMargin" />
+        <attr name="meTopMargin" />
+        <attr name="meBottomMargin" />
+        <attr name="mePadding" />
+        <attr name="meLeftPadding" />
+        <attr name="meRightPadding" />
+        <attr name="meTopPadding" />
+        <attr name="meBottomPadding" />
+
+        <attr name="meTextSize" />
+        <attr name="meMaxTextSize" />
+        <attr name="meMinTextSize" />
+
+    </declare-styleable>
+</resources>
