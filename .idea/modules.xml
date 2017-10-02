@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/DevpiraDesign.iml" filepath="$PROJECT_DIR$/DevpiraDesign.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/colors/colors.iml" filepath="$PROJECT_DIR$/colors/colors.iml" />
-      <module fileurl="file://$PROJECT_DIR$/icons/icons.iml" filepath="$PROJECT_DIR$/icons/icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customviews/customviews.iml" filepath="$PROJECT_DIR$/customviews/customviews.iml" />
     </modules>
   </component>
 </project>

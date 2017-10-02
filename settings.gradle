@@ -1,1 +1,1 @@
-include ':app', ':colors', ':icons'
+include ':app', ':colors', ':customviews'

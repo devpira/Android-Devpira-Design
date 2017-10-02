@@ -10,7 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/colors" />
-            <option value="$PROJECT_DIR$/icons" />
+            <option value="$PROJECT_DIR$/customviews" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
