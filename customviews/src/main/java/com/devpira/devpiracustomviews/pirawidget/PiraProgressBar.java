@@ -3,7 +3,6 @@ package com.devpira.devpiracustomviews.pirawidget;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ProgressBar;
@@ -56,19 +55,19 @@ public class PiraProgressBar extends ProgressBar {
         this.pHeight = getContext().getResources().getDisplayMetrics().heightPixels;
 
         typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.PiraProgressBar, 0,0);
-
-        Log.v("RelativeCREATED","CREATED");
     }
 
 
     TypedArray typedArray;
+    private boolean typedArraySet= false;
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
 
         if(typedArray == null)   // If typedArray is null then view was programmatically created
             return;             // and not through xml. Therefore no xml attr available to use for below.
-
+        if(typedArraySet)
+            return;
         try {
             ref = typedArray.getResourceId(R.styleable.PiraProgressBar_meParentView,0);
 
@@ -120,8 +119,8 @@ public class PiraProgressBar extends ProgressBar {
         }finally {
             if(typedArray != null)
                 typedArray.recycle();
+            typedArraySet = true;
         }
-        Log.v("Relative","attached");
     }
 
 

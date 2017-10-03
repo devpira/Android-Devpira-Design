@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -76,20 +75,18 @@ public class PiraEditText extends AppCompatEditText {
         this.density = getContext().getResources().getDisplayMetrics().density;
 
         this.typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.PiraEditText,0,0);
-
-
-        Log.v("Button","CREATED");
-
     }
 
     TypedArray typedArray;
+    private boolean typedArraySet= false;
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
 
         if(typedArray == null)   // If typedArray is null then view was programmatically created
             return;             // and not through xml. Therefore no xml attr available to use for below.
-
+        if(typedArraySet)
+            return;
         try {
             ref = typedArray.getResourceId(R.styleable.PiraEditText_meParentView,0);
 
@@ -147,8 +144,8 @@ public class PiraEditText extends AppCompatEditText {
         }finally {
             if(typedArray != null)
                 typedArray.recycle();
+            typedArraySet = true;
         }
-        Log.v("Button","attached");
     }
 
     /**

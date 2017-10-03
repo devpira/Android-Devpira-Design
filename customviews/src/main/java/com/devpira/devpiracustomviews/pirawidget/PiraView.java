@@ -3,7 +3,6 @@ package com.devpira.devpiracustomviews.pirawidget;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -49,19 +48,19 @@ public class PiraView extends View {
         this.pHeight = getContext().getResources().getDisplayMetrics().heightPixels;
 
         typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.PiraView, 0,0);
-
-        Log.v("RelativeCREATED","CREATED");
     }
 
 
     TypedArray typedArray;
+    private boolean typedArraySet= false;
     @Override
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
 
         if(typedArray == null)   // If typedArray is null then view was programmatically created
             return;             // and not through xml. Therefore no xml attr available to use for below.
-
+        if(typedArraySet)
+            return;
         try {
             ref = typedArray.getResourceId(R.styleable.PiraView_meParentView,0);
 
@@ -113,8 +112,8 @@ public class PiraView extends View {
         }finally {
             if(typedArray != null)
                 typedArray.recycle();
+            typedArraySet = true;
         }
-        Log.v("Relative","attached");
     }
 
 

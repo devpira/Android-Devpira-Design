@@ -5,7 +5,6 @@ import android.content.res.TypedArray;
 import android.os.Build;
 import android.support.v7.widget.AppCompatButton;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -77,10 +76,6 @@ public class PiraButton extends AppCompatButton {
         this.density = getContext().getResources().getDisplayMetrics().density;
 
         this.typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.PiraButton,0,0);
-
-
-        Log.v("Button","CREATED");
-
     }
 
     TypedArray  typedArray;
@@ -153,7 +148,6 @@ public class PiraButton extends AppCompatButton {
                 typedArray.recycle();
             typedArraySet = true;
         }
-        Log.v("Button","attached");
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             setStateListAnimator(null);
         }

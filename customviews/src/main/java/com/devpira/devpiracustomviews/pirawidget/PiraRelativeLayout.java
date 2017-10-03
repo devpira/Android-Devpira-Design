@@ -3,7 +3,6 @@ package com.devpira.devpiracustomviews.pirawidget;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
@@ -53,8 +52,6 @@ public class PiraRelativeLayout extends RelativeLayout {
         this.pHeight = getContext().getResources().getDisplayMetrics().heightPixels;
 
         typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.PiraRelativeLayout, 0,0);
-
-        Log.v("RelativeCREATED","CREATED");
     }
 
 
@@ -121,7 +118,6 @@ public class PiraRelativeLayout extends RelativeLayout {
                 typedArray.recycle();
             typedArraySet = true;
         }
-        Log.v("Relative","attached");
     }
 
 

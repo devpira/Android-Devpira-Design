@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.support.v7.widget.AppCompatImageView;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -63,10 +62,6 @@ public class PiraImageView extends AppCompatImageView {
 
 
         this.typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.PiraButton,0,0);
-
-
-        Log.v("Button","CREATED");
-
     }
 
     TypedArray typedArray;
@@ -132,7 +127,6 @@ public class PiraImageView extends AppCompatImageView {
                 typedArray.recycle();
             typedArraySet = true;
         }
-        Log.v("Button","attached");
     }
 
     /**

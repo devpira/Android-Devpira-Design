@@ -4,7 +4,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.ViewGroup;
@@ -75,10 +74,6 @@ public class PiraTextView extends AppCompatTextView {
         this.density = getContext().getResources().getDisplayMetrics().density;
 
         this.typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.PiraTextView,0,0);
-
-
-        Log.v("Button","CREATED");
-
     }
 
     TypedArray typedArray;
@@ -150,7 +145,6 @@ public class PiraTextView extends AppCompatTextView {
                 typedArray.recycle();
             typedArraySet = true;
         }
-        Log.v("Button","attached");
     }
 
     /**
@@ -390,9 +384,6 @@ public class PiraTextView extends AppCompatTextView {
 
     public void  meTextSize( float size, float maxSize, float minSize){
 
-        Log.v("maxsize", String.valueOf(maxSize));
-        Log.v("minsize", String.valueOf(minSize));
-        Log.v("textsize", String.valueOf(size));
         this.setMeTextSize(size/100f*pWidth,maxSize/100f*(float)pWidth,minSize/100f*pWidth);
     }
 

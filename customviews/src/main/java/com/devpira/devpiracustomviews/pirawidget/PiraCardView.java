@@ -5,7 +5,6 @@ import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.support.v7.widget.CardView;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -51,7 +50,6 @@ public class PiraCardView extends CardView{
 
             typedArray = context.getTheme().obtainStyledAttributes(attrs, R.styleable.PiraRelativeLayout, 0,0);
             setCardBackgroundColor(Color.parseColor("#FFFFFF"));
-            Log.v("RelativeCREATED","CREATED");
         }
 
 
@@ -118,7 +116,6 @@ public class PiraCardView extends CardView{
                     typedArray.recycle();
                 typedArraySet = true;
             }
-            Log.v("Relative","attached");
         }
 
 
