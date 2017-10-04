@@ -4,6 +4,13 @@
 
 
 <h3>Devpira Design Color Library:</h3>
+
+* Basic Colors - http://cloford.com/resources/colours/500col.htm
+* Canva Colors - https://designschool.canva.com/blog/100-color-combinations/
+* Material Colors - https://material.io/guidelines/style/color.html
+* Flat Colors
+* Themed Colors
+
 Add the following to your 'build.gradle' file in AndroidStudios:
 
 ```
@@ -14,6 +21,9 @@ dependencies {
 ```
 
 <h3>Devpira Design Custom Views Library:</h3>
+
+* Pira Widgets - Basic AppCompat Widgets that have been modified to be able to be scaled and positioned using percentage of phone screen dimensions.
+
 Add the following to your 'build.gradle' file in AndroidStudios:
 
 ```
