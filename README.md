@@ -11,6 +11,7 @@ gradle
 dependencies {
     compile 'com.devpira.design:colors:1.0.0'
 }
+```
 
 <h3>Devpira Design Custom Views Library:</h3>
 Add the following to your 'build.gradle' file in AndroidStudios:
